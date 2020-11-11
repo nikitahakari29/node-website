@@ -1,12 +1,16 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "publishConfig": {
     "registry": "http://localhost:8081/repository/npm-hosted/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
