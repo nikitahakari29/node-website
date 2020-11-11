@@ -1,9 +1,12 @@
 {
   "name": "website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/npm-hosted/"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
