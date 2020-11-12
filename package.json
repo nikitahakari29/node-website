@@ -9,11 +9,11 @@
   "license": "UNLICENSED" 
 }
   "publishConfig": {
-    "registry": "http://localhost:8081/repository/npm-hosted/"
+    "registry": "http://13.233.77.205:8081/repository/nexus-jenkis-demo/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": ""
   },
   "dependencies": {
     "body-parser": "~1.17.1",
