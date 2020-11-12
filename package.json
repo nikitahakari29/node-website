@@ -1,15 +1,11 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-{ 
-  "license": "UNLICENSED" 
-}
   "publishConfig": {
-    "registry": "http://13.233.77.205:8081/repository/nexus-jenkis-demo/"
+    "registry": "localhost:8081/repository/nexus-jenkis-demo/"
   },
   "repository": {
     "type": "git",
