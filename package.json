@@ -5,7 +5,7 @@
     "start": "node ./bin/www"
   },
   "publishConfig" : {
-    "registry" : "http://localhost:8081/nexus/content/repositories/npm-jenkis-demo/"
+    "registry" : "http://localhost:8081/repository/nexus-jenkis-demo/"
   },
   "repository": {
     "type": "git",
